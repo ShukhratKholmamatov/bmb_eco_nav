@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "bmb_eco_nav",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../../Desktop/templatemo_606_string_master/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bmb_eco_nav"
+	}
+}

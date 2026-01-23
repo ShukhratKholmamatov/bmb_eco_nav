@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "bmb_eco_nav",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "../../../Desktop/templatemo_591_villa_agency/assets"
+		},
+		{
+			"name": "vendor",
+			"path": "../../../Desktop/templatemo_591_villa_agency/vendor"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bmb_eco_nav",
+		"liveServer.settings.port": 5501
+	}
+}

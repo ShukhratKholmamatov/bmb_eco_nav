@@ -401,19 +401,33 @@ Header Style
   display: flex;
 }
 
+/* --- UPDATED LOGO STYLES --- */
+
 .header-area .main-nav .logo {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  display: inline-block;
-  display: flex;
-  align-items:center ;
-  justify-content: center;
+  display: flex; /* Keeps the image centered */
+  align-items: center; /* Vertically center the image */
+  justify-content: start; /* Align to the left */
+  height: 100px; /* Match the header height */
+  margin-right: 30px; /* Add space between logo and menu */
 }
 
-.logo img{
-  width: 100%;
+.logo img {
+  width: auto; /* Let the image define its own width based on height */
+  max-width: 200px; /* Prevent it from getting too wide */
+  max-height: 70px; /* Limit height so it fits in the 100px header */
+}
+
+/* Adjust for the sticky header (when scrolling) */
+.background-header .main-nav .logo {
+  height: 80px; /* Sticky header is shorter */
+}
+
+.background-header .main-nav .logo img {
+  max-height: 50px; /* Make logo slightly smaller on scroll */
 }
 
 .header-area .main-nav .logo h1 {
@@ -665,7 +679,12 @@ Header Style
   .header-area .main-nav .logo {
     position: absolute;
     left: 30px;
-    top: 0px;
+    top: 15px; /* Push it down slightly to center it vertically */
+    height: 50px; /* Restrict container height on mobile */
+  }
+
+  .logo img {
+      max-height: 40px; /* Ensure logo is small enough for mobile screens */
   }
   .background-header .main-nav .logo {
     top: 0px;

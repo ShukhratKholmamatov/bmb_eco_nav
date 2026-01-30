@@ -9,28 +9,18 @@
 
     <title>Villa Agency - Real Estate HTML5 Template</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<!--
-
-TemplateMo 591 villa agency
-
-https://templatemo.com/tm-591-villa-agency
-
--->
-  </head>
+</head>
 
 <body>
 
-  <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
       <span class="dot"></span>
@@ -41,77 +31,68 @@ https://templatemo.com/tm-591-villa-agency
       </div>
     </div>
   </div>
-  <!-- ***** Preloader End ***** -->
-
   <div class="sub-header">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-8">
           <ul class="info">
-            <li><i class="fa fa-envelope"></i> info@company.com</li>
-            <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>
+            <li><i class="fa fa-envelope"></i> info@bmb-holding.uz</li>
+            <li><i class="fa fa-map"></i>Tashkent, Yakkasaray district, Kichik xalqa street, house 14-B</li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
           <ul class="social-links">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" onclick="changeLanguage('en')" class="lang-btn" data-lang="en" style="font-weight:bold;">EN</a></li>
+            <li><a href="#" onclick="changeLanguage('uz')" class="lang-btn" data-lang="uz" style="font-weight:bold;">UZ</a></li>
+            <li><a href="#" onclick="changeLanguage('ru')" class="lang-btn" data-lang="ru" style="font-weight:bold;">RU</a></li>
+            <li><a href="https://www.instagram.com/bmbeconav/"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
                          <img width="100" height="50" src="/assets/images/logo_eco.png" alt="">
                     </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html" class="active">Home</a></li>
-                      <li><a href="properties.html">Properties</a></li>
-                      <li><a href="property-details.html">Property Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                      <li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
+                      <li><a href="properties.html" data-i18n="nav_properties">Properties</a></li>
+                      <li><a href="property-details.html" data-i18n="nav_details">Property Details</a></li>
+                      <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                      <li><a href="#"><i class="fa fa-calendar"></i> <span data-i18n="nav_schedule">Schedule a visit</span></a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
+                    </nav>
             </div>
         </div>
     </div>
   </header>
-  <!-- ***** Header Area End ***** -->
-
   <div class="main-banner">
     <div class="owl-carousel owl-banner">
       <div class="item item-1">
         <div class="header-text">
-          <span class="category">Toronto, <em>Canada</em></span>
-          <h2>Hurry!<br>Get the Best Villa for you</h2>
+          <span class="category">Jizzakh, <em>Uzbekistan</em></span>
+          <h2 data-i18n="banner_title_1">BMB Holding<br>экотизимида яна бир стратегик қадам!</h2>
         </div>
       </div>
       <div class="item item-2">
         <div class="header-text">
-          <span class="category">Melbourne, <em>Australia</em></span>
-          <h2>Be Quick!<br>Get the best villa in town</h2>
+          <span class="category">Jizzakh, <em>Uzbekistan</em></span>
+          <h2 data-i18n="banner_title_2">Be Quick!<br>Get the best villa in town</h2>
         </div>
       </div>
       <div class="item item-3">
         <div class="header-text">
-          <span class="category">Miami, <em>South Florida</em></span>
-          <h2>Act Now!<br>Get the highest level penthouse</h2>
+          <span class="category">Jizzakh, <em>Uzbekistan</em></span>
+          <h2 data-i18n="banner_title_3">Act Now!<br>Get the highest level penthouse</h2>
         </div>
       </div>
     </div>
@@ -128,42 +109,43 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-5">
           <div class="section-heading">
-            <h6>| Featured</h6>
-            <h2>Best Appartment &amp; Sea view</h2>
+            <h6 data-i18n="section_featured">| Featured</h6>
+            <h2 data-i18n="section_featured_title">Best Appartment & Sea view</h2>
           </div>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" data-i18n="accord_q1">
                   Best useful links ?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                Get <strong>the best villa</strong> website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the <a href="https://www.google.com/search?q=best+free+css+templates" target="_blank">best free CSS templates</a> in the world. Please tell your friends about it.</div>
+                <div class="accordion-body" data-i18n="accord_a1">
+                Get <strong>the best villa</strong> website template in HTML CSS and Bootstrap for your business.
+                </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-i18n="accord_q2">
                   How does this work ?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <div class="accordion-body" data-i18n="accord_a2">
+                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit...
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" data-i18n="accord_q3">
                   Why is Villa Agency the best ?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <div class="accordion-body" data-i18n="accord_a3">
+                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit...
                 </div>
               </div>
             </div>
@@ -174,19 +156,19 @@ https://templatemo.com/tm-591-villa-agency
             <ul>
               <li>
                 <img src="assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
-                <h4>250 m2<br><span>Total Flat Space</span></h4>
+                <h4>250 m2<br><span data-i18n="info_space">Total Flat Space</span></h4>
               </li>
               <li>
                 <img src="assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
-                <h4>Contract<br><span>Contract Ready</span></h4>
+                <h4>Contract<br><span data-i18n="info_contract">Contract Ready</span></h4>
               </li>
               <li>
                 <img src="assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
-                <h4>Payment<br><span>Payment Process</span></h4>
+                <h4>Payment<br><span data-i18n="info_payment">Payment Process</span></h4>
               </li>
               <li>
                 <img src="assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
-                <h4>Safety<br><span>24/7 Under Control</span></h4>
+                <h4>Safety<br><span data-i18n="info_safety">24/7 Under Control</span></h4>
               </li>
             </ul>
           </div>
@@ -200,8 +182,8 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
-            <h6>| Video View</h6>
-            <h2>Get Closer View & Different Feeling</h2>
+            <h6 data-i18n="video_subtitle">| Video View</h6>
+            <h2 data-i18n="video_title">Get Closer View & Different Feeling</h2>
           </div>
         </div>
       </div>
@@ -230,19 +212,19 @@ https://templatemo.com/tm-591-villa-agency
               <div class="col-lg-4">
                 <div class="counter">
                   <h2 class="timer count-title count-number" data-to="34" data-speed="1000"></h2>
-                   <p class="count-text ">Buildings<br>Finished Now</p>
+                   <p class="count-text" data-i18n="fact_buildings">Buildings<br>Finished Now</p>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="counter">
                   <h2 class="timer count-title count-number" data-to="12" data-speed="1000"></h2>
-                  <p class="count-text ">Years<br>Experience</p>
+                  <p class="count-text" data-i18n="fact_experience">Years<br>Experience</p>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="counter">
                   <h2 class="timer count-title count-number" data-to="24" data-speed="1000"></h2>
-                  <p class="count-text ">Awwards<br>Won 2023</p>
+                  <p class="count-text" data-i18n="fact_awards">Awwards<br>Won 2023</p>
                 </div>
               </div>
             </div>
@@ -257,8 +239,8 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-4">
           <div class="section-heading">
-            <h6>| Best Deal</h6>
-            <h2>Find Your Best Deal Right Now!</h2>
+            <h6 data-i18n="deal_subtitle">| Best Deal</h6>
+            <h2 data-i18n="deal_title">Find Your Best Deal Right Now!</h2>
           </div>
         </div>
         <div class="col-lg-12">
@@ -267,13 +249,13 @@ https://templatemo.com/tm-591-villa-agency
               <div class="nav-wrapper ">
                 <ul class="nav nav-tabs" role="tablist">
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Appartment</button>
+                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true" data-i18n="tab_apartment">Appartment</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false">Villa House</button>
+                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false" data-i18n="tab_villa">Villa House</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Penthouse</button>
+                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false" data-i18n="tab_penthouse">Penthouse</button>
                   </li>
                 </ul>
               </div>              
@@ -283,11 +265,11 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
-                          <li>Total Flat Space <span>185 m2</span></li>
-                          <li>Floor number <span>26th</span></li>
-                          <li>Number of rooms <span>4</span></li>
-                          <li>Parking Available <span>Yes</span></li>
-                          <li>Payment Process <span>Bank</span></li>
+                          <li><span data-i18n="info_space">Total Flat Space</span> <span>185 m2</span></li>
+                          <li><span data-i18n="info_floor">Floor number</span> <span>26th</span></li>
+                          <li><span data-i18n="info_rooms">Number of rooms</span> <span>4</span></li>
+                          <li><span data-i18n="info_parking">Parking Available</span> <span data-i18n="yes">Yes</span></li>
+                          <li><span data-i18n="info_payment">Payment Process</span> <span data-i18n="bank">Bank</span></li>
                         </ul>
                       </div>
                     </div>
@@ -295,25 +277,24 @@ https://templatemo.com/tm-591-villa-agency
                       <img src="assets/images/nav3.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                      <h4>Extra Info About Property</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. 
-                      <br><br>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</p>
+                      <h4 data-i18n="extra_info_title">Extra Info About Property</h4>
+                      <p data-i18n="extra_info_text">Lorem ipsum dolor sit amet...</p>
                       <div class="icon-button">
-                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> <span data-i18n="nav_schedule">Schedule a visit</span></a>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="tab-pane fade" id="villa" role="tabpanel" aria-labelledby="villa-tab">
-                  <div class="row">
+                   <div class="row">
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
-                          <li>Total Flat Space <span>250 m2</span></li>
-                          <li>Floor number <span>26th</span></li>
-                          <li>Number of rooms <span>5</span></li>
-                          <li>Parking Available <span>Yes</span></li>
-                          <li>Payment Process <span>Bank</span></li>
+                          <li><span data-i18n="info_space">Total Flat Space</span> <span>250 m2</span></li>
+                          <li><span data-i18n="info_floor">Floor number</span> <span>26th</span></li>
+                          <li><span data-i18n="info_rooms">Number of rooms</span> <span>5</span></li>
+                          <li><span data-i18n="info_parking">Parking Available</span> <span data-i18n="yes">Yes</span></li>
+                          <li><span data-i18n="info_payment">Payment Process</span> <span data-i18n="bank">Bank</span></li>
                         </ul>
                       </div>
                     </div>
@@ -321,39 +302,39 @@ https://templatemo.com/tm-591-villa-agency
                       <img src="assets/images/nav4.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                      <h4>Detail Info About Villa</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
+                      <h4 data-i18n="detail_info_villa">Detail Info About Villa</h4>
+                      <p>Lorem ipsum dolor sit amet...</p>
                       <div class="icon-button">
-                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> <span data-i18n="nav_schedule">Schedule a visit</span></a>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
-                  <div class="row">
-                    <div class="col-lg-3">
-                      <div class="info-table">
-                        <ul>
-                          <li>Total Flat Space <span>320 m2</span></li>
-                          <li>Floor number <span>34th</span></li>
-                          <li>Number of rooms <span>6</span></li>
-                          <li>Parking Available <span>Yes</span></li>
-                          <li>Payment Process <span>Bank</span></li>
-                        </ul>
+                 </div>
+                 <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="info-table">
+                          <ul>
+                            <li><span data-i18n="info_space">Total Flat Space</span> <span>320 m2</span></li>
+                            <li><span data-i18n="info_floor">Floor number</span> <span>34th</span></li>
+                            <li><span data-i18n="info_rooms">Number of rooms</span> <span>6</span></li>
+                            <li><span data-i18n="info_parking">Parking Available</span> <span data-i18n="yes">Yes</span></li>
+                            <li><span data-i18n="info_payment">Payment Process</span> <span data-i18n="bank">Bank</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <img src="assets/images/nav5.jpg" alt="">
+                      </div>
+                      <div class="col-lg-3">
+                        <h4 data-i18n="extra_info_penthouse">Extra Info About Penthouse</h4>
+                        <p>Lorem ipsum dolor sit amet...</p>
+                        <div class="icon-button">
+                          <a href="property-details.html"><i class="fa fa-calendar"></i> <span data-i18n="nav_schedule">Schedule a visit</span></a>
+                        </div>
                       </div>
                     </div>
-                    <div class="col-lg-6">
-                      <img src="assets/images/nav5.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3">
-                      <h4>Extra Info About Penthouse</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
-                      <div class="icon-button">
-                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                 </div>
               </div>
             </div>
           </div>
@@ -367,8 +348,8 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
-            <h6>| Properties</h6>
-            <h2>We Provide The Best Property You Like</h2>
+            <h6 data-i18n="prop_section_subtitle">| Properties</h6>
+            <h2 data-i18n="prop_section_title">We Provide The Best Property You Like</h2>
           </div>
         </div>
       </div>
@@ -376,112 +357,40 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4 col-md-6">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/tomato.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
+            <span class="category" data-i18n="cat_luxury_villa">Luxury Villa</span>
             <h6>$2.264.000</h6>
             <h4><a href="property-details.html">18 New Street Miami, OR 97219</a></h4>
             <ul>
-              <li>Bedrooms: <span>8</span></li>
-              <li>Bathrooms: <span>8</span></li>
-              <li>Area: <span>545m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>6 spots</span></li>
+              <li><span data-i18n="label_bedrooms">Bedrooms:</span> <span>8</span></li>
+              <li><span data-i18n="label_bathrooms">Bathrooms:</span> <span>8</span></li>
+              <li><span data-i18n="label_area">Area:</span> <span>545m2</span></li>
+              <li><span data-i18n="label_floor">Floor:</span> <span>3</span></li>
+              <li><span data-i18n="label_parking">Parking:</span> <span>6 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="property-details.html" data-i18n="nav_schedule">Schedule a visit</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/cucumber.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
+            <span class="category" data-i18n="cat_luxury_villa">Luxury Villa</span>
             <h6>$1.180.000</h6>
             <h4><a href="property-details.html">54 Mid Street Florida, OR 27001</a></h4>
             <ul>
-              <li>Bedrooms: <span>6</span></li>
-              <li>Bathrooms: <span>5</span></li>
-              <li>Area: <span>450m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>8 spots</span></li>
+              <li><span data-i18n="label_bedrooms">Bedrooms:</span> <span>6</span></li>
+              <li><span data-i18n="label_bathrooms">Bathrooms:</span> <span>5</span></li>
+              <li><span data-i18n="label_area">Area:</span> <span>450m2</span></li>
+              <li><span data-i18n="label_floor">Floor:</span> <span>3</span></li>
+              <li><span data-i18n="label_parking">Parking:</span> <span>8 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="property-details.html" data-i18n="nav_schedule">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/cabbage.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.460.000</h6>
-            <h4><a href="property-details.html">26 Old Street Miami, OR 38540</a></h4>
-            <ul>
-              <li>Bedrooms: <span>5</span></li>
-              <li>Bathrooms: <span>4</span></li>
-              <li>Area: <span>225m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>10 spots</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/onion.webp" alt=""></a>
-            <span class="category">Apartment</span>
-            <h6>$584.500</h6>
-            <h4><a href="property-details.html">12 New Street Miami, OR 12650</a></h4>
-            <ul>
-              <li>Bedrooms: <span>4</span></li>
-              <li>Bathrooms: <span>3</span></li>
-              <li>Area: <span>125m2</span></li>
-              <li>Floor: <span>25th</span></li>
-              <li>Parking: <span>2 cars</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/carrot.jpg" alt=""></a>
-            <span class="category">Penthouse</span>
-            <h6>$925.600</h6>
-            <h4><a href="property-details.html">34 Beach Street Miami, OR 42680</a></h4>
-            <ul>
-              <li>Bedrooms: <span>4</span></li>
-              <li>Bathrooms: <span>4</span></li>
-              <li>Area: <span>180m2</span></li>
-              <li>Floor: <span>38th</span></li>
-              <li>Parking: <span>2 cars</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/watermelon.jpg" alt=""></a>
-            <span class="category">Modern Condo</span>
-            <h6>$450.000</h6>
-            <h4><a href="property-details.html">22 New Street Portland, OR 16540</a></h4>
-            <ul>
-              <li>Bedrooms: <span>3</span></li>
-              <li>Bathrooms: <span>2</span></li>
-              <li>Area: <span>165m2</span></li>
-              <li>Floor: <span>26th</span></li>
-              <li>Parking: <span>3 cars</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -490,8 +399,8 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
-            <h6>| Contact Us</h6>
-            <h2>Get In Touch With Our Agents</h2>
+            <h6 data-i18n="contact_subtitle">| Contact Us</h6>
+            <h2 data-i18n="contact_title">Get In Touch With Our Agents</h2>
           </div>
         </div>
       </div>
@@ -509,13 +418,13 @@ https://templatemo.com/tm-591-villa-agency
             <div class="col-lg-6">
               <div class="item phone">
                 <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
-                <h6>010-020-0340<br><span>Phone Number</span></h6>
+                <h6>+998 77 000 02 23<br><span data-i18n="label_phone">Phone Number</span></h6>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="item email">
                 <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
-                <h6>info@villa.co<br><span>Business Email</span></h6>
+                <h6>info@bmb-holding.uz<br><span data-i18n="label_email">Business Email</span></h6>
               </div>
             </div>
           </div>
@@ -525,31 +434,31 @@ https://templatemo.com/tm-591-villa-agency
             <div class="row">
               <div class="col-lg-12">
                 <fieldset>
-                  <label for="name">Full Name</label>
-                  <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                  <label for="name" data-i18n="form_name">Full Name</label>
+                  <input type="name" name="name" id="name" data-i18n-placeholder="form_name_ph" placeholder="Your Name..." autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <label for="email">Email Address</label>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                  <label for="email" data-i18n="form_email">Email Address</label>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" data-i18n-placeholder="form_email_ph" placeholder="Your E-mail..." required="">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <label for="subject">Subject</label>
-                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" >
+                  <label for="subject" data-i18n="form_subject">Subject</label>
+                  <input type="subject" name="subject" id="subject" data-i18n-placeholder="form_subject_ph" placeholder="Subject..." autocomplete="on" >
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <label for="message">Message</label>
-                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  <label for="message" data-i18n="form_message">Message</label>
+                  <textarea name="message" id="message" data-i18n-placeholder="form_message_ph" placeholder="Your Message"></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                  <button type="submit" id="form-submit" class="orange-button" data-i18n="form_btn">Send Message</button>
                 </fieldset>
               </div>
             </div>
@@ -562,21 +471,20 @@ https://templatemo.com/tm-591-villa-agency
   <footer>
     <div class="container">
       <div class="col-lg-8">
-        <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. 
-        
-        Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+        <p data-i18n="footer_copyright">Copyright © 2026 LENO LLC. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/language.js"></script>
 
   </body>
 </html>

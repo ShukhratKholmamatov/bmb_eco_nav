@@ -1,0 +1,50 @@
+const translations = {
+  "en": {
+    "nav_home": "Home",
+    "nav_properties": "Properties",
+    "nav_details": "Property Details",
+    "nav_contact": "Contact Us",
+    "nav_schedule": "Schedule a visit",
+    "banner_city_1": "Toronto, <em>Canada</em>",
+    "banner_title_1": "Hurry!<br>Get the Best Villa for you",
+    "section_featured": "Featured",
+    "section_featured_title": "Best Apartment & Sea view",
+    "form_name_placeholder": "Your Name...",
+    "form_email_placeholder": "Your E-mail...",
+    "form_subject_placeholder": "Subject...",
+    "form_message_placeholder": "Your Message",
+    "form_btn": "Send Message"
+  },
+  "uz": {
+    "nav_home": "Bosh Sahifa",
+    "nav_properties": "Mulkar",
+    "nav_details": "Mulk Tafsilotlari",
+    "nav_contact": "Bog'lanish",
+    "nav_schedule": "Tashrifni rejalashtirish",
+    "banner_city_1": "Toronto, <em>Kanada</em>",
+    "banner_title_1": "Shoshiling!<br>Siz uchun eng yaxshi villa",
+    "section_featured": "Tanlangan",
+    "section_featured_title": "Eng yaxshi kvartira va dengiz manzarasi",
+    "form_name_placeholder": "Ismingiz...",
+    "form_email_placeholder": "E-pochtangiz...",
+    "form_subject_placeholder": "Mavzu...",
+    "form_message_placeholder": "Xabaringiz",
+    "form_btn": "Xabar Yuborish"
+  },
+  "ru": {
+    "nav_home": "Главная",
+    "nav_properties": "Объекты",
+    "nav_details": "Детали",
+    "nav_contact": "Контакты",
+    "nav_schedule": "Запланировать визит",
+    "banner_city_1": "Торонто, <em>Канада</em>",
+    "banner_title_1": "Спешите!<br>Лучшая вилла для вас",
+    "section_featured": "Избранное",
+    "section_featured_title": "Лучшая квартира и вид на море",
+    "form_name_placeholder": "Ваше имя...",
+    "form_email_placeholder": "Ваш E-mail...",
+    "form_subject_placeholder": "Тема...",
+    "form_message_placeholder": "Ваше сообщение",
+    "form_btn": "Отправить"
+  }
+};
